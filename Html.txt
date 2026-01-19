@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Assignment  2</title>
+        <style>
+        body{
+            margin:0;
+            font-family: Arial;
+            background:#d9b8a6;
+        }
+  .container{
+     display: flex;
+     justify-content: center;
+     gap: 40px;
+     padding:  50px;
+     flex-wrap: wrap;
+  }
+  .box{
+    width: 320px;
+    padding:25px;
+    border-radius: 12px;
+    box-shadow: 0 8px  18px
+  rgba(0,0,0,0,);
+  }
+  ,register{background:#9fc7be;}
+  .contact{background:#cdb6a1;}
+  h2{text-align:center;}
+  input,textarea{
+    width: 100%;
+    padding:8px;
+    margin-top:6px;
+    border:none;
+    border-radius:6px;
+  }
+  textarea{height:80px;}
+ button{
+    width:100px;
+    margin-top:15px;
+    border:none;
+    border-radius:8px;
+    background:#d96c6c;
+    color:#fff;
+   }
+   @media(max-width:768px){
+        .container{flex-direction:colum;align-items: center; }
+   }
+   </style>
+   </head> 
+
+   <body>
+
+         <div class="container">
+             
+         <div class="box register">
+            <h2>Registration</h2>
+            <input  type="text"placeholder="Full Name">
+            <input  type="email"placeholder="Email">
+            <input  type="password">
+            <p><input  type="checkbox"> T agree to terms</p>
+            <button>Register</button>
+     </div>
+     <div class="box contact">
+            <h2>Contact Us</h2>
+            <input  type="text" placeholder="Name">
+         <input type="email" placeholder="Email">
+      <textarea placeholder="Message"></textarea>
+     </div>
+      </div>
+   </body>
+</html>
+                 
+
+  
